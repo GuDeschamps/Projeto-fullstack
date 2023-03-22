@@ -1,6 +1,6 @@
-# Olá, Bem vindo ao meu projeto de portfólio.
+# Olá, Bem vindo ao meu projeto PF.
 
-Desenvolvendo meu portfolio com os cursos alura. <br>
+Desenvolvendo o projeto PF. <br>
 
 ## Funcionalidades
 
@@ -23,12 +23,22 @@ A principio o código será utilizado como meio de estudo para aprimoramento do 
 
 [<img src="https://avatars.githubusercontent.com/u/127525441?s=400&u=a2dd9be461736d5dc7622ea542162dfc99d3cf08&v=4" width=115><br><sub>Gustavo Guilherme Deschamps</sub>](https://github.com/GuDeschamps)
 
-## Redes sociais:
+[<img src="https://avatars.githubusercontent.com/u/127878778?v=4" width=115><br><sub>Flavio Roberto Guilherme Alves Junior</sub>](https://github.com/flaviorgaj)
+
+
+
+## Redes sociais do Gustavo:
 <div style="display: inline_block"><br>
      <a href="https://github.com/GuDeschamps" target="_blank"> <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank"  height="30" width="111>"</a>
      <a href="https://cursos.alura.com.br/user/gustavodguilherme0205" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.1647533643.svg" height="30" width="111>"</a> 
     <a href="https://www.linkedin.com/in/gustavo-guilherme-deschamps-a6274b137" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" height="30" width="111>"</a> 
 
+## Redes sociais do Flavio:
+
+<div style="display: inline_block"><br>
+     <a href="https://github.com/flaviorgaj" target="_blank"> <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank"  height="30" width="111>"</a>
+    <a href="https://www.linkedin.com/in/flavio-roberto-guilherme-alves-j%C3%BAnior-b616a5205/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" height="30" width="111>"</a> 
+    
 </div>
 
 <!--
