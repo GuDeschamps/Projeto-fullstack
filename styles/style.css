@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+
+    --tamanho-fonte-secundaria: 1.5rem; /*24px*/
+
+    --cinza: #aaa;
+    --azul: #22D4FD;
+    --azul-escura: #2288fd;
+    --branca: #fff;
+    --luz: rgb(229, 255, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-size: var(--tamanho-fonte-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+}
+
+.titulo-destaque {
+    color: var(--cor-terciaria);
+}
+
+.apresentacao__conteudo__texto {
+    font-size: var(--tamanho-fonte-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-size: var(--tamanho-fonte-secundaria);
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+    font-weight: 400;
+}
+
+.apresentacao__links__navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    color: var(--cor-secundaria);
+    text-align: center;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
+    font-size: var(--tamanho-fonte-secundaria);
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__links__link:hover {
+    background-color: var(--cor-hover);
+}
+
+.apresentacao__imagem {
+    width: 50%;
+}
+
+.rodape {
+    color: var(--cor-primaria); 
+    background-color: var(--cor-terciaria);
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    font-size: var(--tamanho-fonte-secundaria);
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10% 5% 0% 10%;
+    }
+    .cabecalho__menu {
+        justify-content: center;
+        padding: 2% 0% 0% 0% ;
+        width: auto;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo {
+        width: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    .cabecalho {
+        padding: 5% 5% 0% 5%;
+    }
+    .cabecalho__menu {
+        padding: 0%;
+        justify-content: auto;
+        gap: 2%;
+    }
+    .cabecalho__menu__link {
+        font-size: 36px;
+        justify-content: center;
+        width: auto;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+}
+/*
+CSS do Alura midi em edição
+*/
+
+  .teclado {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+    box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+    border-radius: 10px;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5%;
+  }
+  
+  .tecla {
+    background-color: var(--branca);
+    border-radius: 30px;
+    box-shadow: 3px 3px 0 var(--cinza);
+    color: var(--azul);
+    cursor: pointer;
+    height: 120px;
+    font-size: 1.75em;
+    font-weight: bold;
+    line-height: 120px;
+    text-align: center;
+    width: 120px;
+  }
+  
+  .tecla.ativa,
+  .tecla:active {
+    background-color: var(--azul);
+    border: 4px solid  var(--azul);
+    box-shadow: 3px 3px 0 var(--azul-escura) inset;
+    color: var(--branca);
+    outline: none;
+  }
+  
+  .tecla.focus,
+  .tecla:focus {
+    outline: none;
+    box-shadow: 1px 1px 10px var(--luz);
+  }
+  
+  .tecla.active:focus,
+  .tecla:active:focus {
+    box-shadow: 3px 3px 0 var(--azul-escura) inset, 1px 1px 10px var(--luz);
+  }
+  
