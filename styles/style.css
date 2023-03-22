@@ -77,7 +77,15 @@ body {
     font-family: var(--fonte-secundaria);
 }
 
-.apresentacao__links {
+.apresentacao__links__gu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__teco {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
