@@ -5,7 +5,7 @@
 :root {
     --cor-primaria: #000000;
     --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #22D4FD;
+    --cor-terciaria: #5400B5;
     --cor-hover: #272727;
 
     --fonte-primaria: 'Krona One', sans-serif;
@@ -17,6 +17,7 @@
     --azul: #22D4FD;
     --azul-escura: #2288fd;
     --branca: #fff;
+    --roxo: #5400B5;
     --luz: rgb(229, 255, 0);
 }
 
