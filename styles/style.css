@@ -54,7 +54,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 82px;
+    gap: 150px;
 }
 
 .apresentacao__conteudo {
@@ -67,6 +67,7 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
+    display: center;
 }
 
 .titulo-destaque {
@@ -138,7 +139,7 @@ body {
 
 @media (max-width: 1200px) {
     .cabecalho {
-        padding: 10% 5% 0% 10%;
+        padding: 2% 2% 0% 5%;
     }
     .cabecalho__menu {
         justify-content: center;
@@ -148,6 +149,7 @@ body {
     .apresentacao {
         flex-direction: column-reverse;
         padding: 5%;
+        gap: 50px;
     }
     .apresentacao__conteudo {
         width: auto;
@@ -195,21 +197,21 @@ CSS do Alura midi em edição
     background-color: var(--branca);
     border-radius: 30px;
     box-shadow: 3px 3px 0 var(--cinza);
-    color: var(--azul);
+    color: var(--cor-terciaria);
     cursor: pointer;
-    height: 120px;
-    font-size: 1.75em;
+    height: 70px;
+    font-size: 1.25em;
     font-weight: bold;
-    line-height: 120px;
+    line-height: 70px;
     text-align: center;
-    width: 120px;
+    width: 70px;
   }
   
   .tecla.ativa,
   .tecla:active {
-    background-color: var(--azul);
-    border: 4px solid  var(--azul);
-    box-shadow: 3px 3px 0 var(--azul-escura) inset;
+    background-color: var(--roxo);
+    border: 4px solid  var(--roxo);
+    box-shadow: 3px 3px 0 var(--luz) inset;
     color: var(--branca);
     outline: none;
   }
@@ -222,6 +224,6 @@ CSS do Alura midi em edição
   
   .tecla.active:focus,
   .tecla:active:focus {
-    box-shadow: 3px 3px 0 var(--azul-escura) inset, 1px 1px 10px var(--luz);
+    box-shadow: 3px 3px 0 var(--cor-primaria) inset, 1px 1px 10px var(--luz);
   }
   
