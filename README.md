@@ -40,7 +40,17 @@ A principio o código será utilizado como meio de estudo para aprimoramento do 
 
 <!--
 Descrição do seu projeto;
-Funcionalidades;
+
+Funcionalidades para alterar:
+comprimir o espaço clicavel dos menus do cabeçalho;
+diminuir o texto do rodapé +-200 e por uma linha de texti +-100 embaixo;
+acrescentar texto motivacional do teco;
+testar alinhamentos diferentes das redes sociais;
+mudar nome do "alura midi" para "projetos";
+fazer um menu com bandeja com os projetos, exibição na direita vide paint "janela de projetos ";,
+PENSAR na diagramação dos textos e paleta de cor;
+
+
 Como os usuários podem utilizá-lo;
 Onde os usuários podem encontrar ajuda sobre seu projeto;
 Autores do projeto
