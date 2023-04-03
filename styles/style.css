@@ -65,7 +65,7 @@ body {
     text-align: center;
     border-right: 1px solid; 
     font-size: var(--tamanho-fonte-secundaria);
-    padding: 10px 21.5px ;
+    padding: 10px 21.5px 0px 0px ;
  
 }
 .cabecalho__menu__link__final {
@@ -76,7 +76,7 @@ body {
     text-decoration: none;
     width: 20%;
     text-align: center;
-    padding: 10px 21.5px;
+    padding: 10px 21.5px 0px 0px ;
  
 }
 
@@ -163,8 +163,8 @@ body {
     background-color: var(--cor-terciaria);
     display: flex;
     justify-content: center;
-    padding: 24px;
-    font-size: var(--tamanho-fonte-secundaria);
+    padding: 20px;
+    font-size: 12px;
     font-family: var(--fonte-primaria);
     font-weight: 400;
 }
