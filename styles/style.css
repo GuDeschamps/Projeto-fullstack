@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #000000;
+    --cor-primaria: #3B4039;
     --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #5400B5;
+    --cor-terciaria: #F2D194;
     --cor-hover: #272727;
 
     --fonte-primaria: 'Krona One', sans-serif;
@@ -17,7 +17,7 @@
     --azul: #22D4FD;
     --azul-escura: #2288fd;
     --branca: #fff;
-    --roxo: #5400B5;
+    --roxo: #F2D194;
     --luz: rgb(229, 255, 0);
 }
 
@@ -38,16 +38,48 @@ body {
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 0%;
+
 }
 
-.cabecalho__menu__link {
+.cabecalho__menu__link__inicial {
     font-size: var(--tamanho-fonte-secundaria);
     font-family: var(--fonte-secundaria);
-    font-weight: 600;
+    font-weight: 500;
     color: var(--cor-terciaria);
     text-decoration: none;
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid; 
+    font-size: var(--tamanho-fonte-secundaria);
+    padding: 10px 21.5px 0px 0px;
+ 
 }
+.cabecalho__menu__link__meial {
+    font-size: var(--tamanho-fonte-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid; 
+    font-size: var(--tamanho-fonte-secundaria);
+    padding: 10px 21.5px ;
+ 
+}
+.cabecalho__menu__link__final {
+    font-size: var(--tamanho-fonte-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+    padding: 10px 21.5px;
+ 
+}
+
 
 .apresentacao {
     padding: 5% 15%;
@@ -166,9 +198,16 @@ body {
         gap: 2%;
     }
     .cabecalho__menu__link {
-        font-size: 36px;
+        font-size: 24px;
         justify-content: center;
         width: auto;
+        
+    }
+    .cabecalho__menu__link {
+        font-size: 24px;
+        justify-content: center;
+        width: auto;
+        
     }
     .apresentacao {
         flex-direction: column-reverse;
